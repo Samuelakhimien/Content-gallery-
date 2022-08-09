@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  height: 150px;
+  width: 250px;
+}
+
+.card {
+  margin: 1em;
+ padding: 1em;
+ border: solid 1px #ffd977;
+  border-radius: 6px;
+  width: 230px;
+  cursor: pointer;
+background-color: #fff;
+}
+
+.card img {
+  width: 230px;
+}
+
+
+.card:hover {
+  border: none;
+  border-right: solid 6px #ffd977;
+  border-bottom: solid 6px #ffd977;
+}
+
+.category {   
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #b5460f;
+}
+
+.name {
+  font-size: 36px;
+  line-height: 1.2;
+  padding-bottom: 1em;
+  }
+
+header h1 {
+  font-family: fantasy;
+  font-weight: normal;
+  border-bottom: 6px dotted #ffd977;
+}
+
+body {
+  background: linear-gradient(to bottom,#fff 12%,#f0f9f9 15.74%,#f0f9f9 100%);
+  max-width: 900px;
+  margin: auto 0;
+  }  
